@@ -1,6 +1,8 @@
 :root {
-  --ge: #00605a;
-  --gc: #00d900;
+  --gc: #71d801;
+  --ge: #073a30;
+  --gb: #006965;
+  --yl: #ffc600;
   --c: #e1e3e1;
   --cz: #1e1b1c;
 }
@@ -147,9 +149,10 @@
 }
 
 .brix---card-stats-v3 {
+  border: 2px solid var(--gc);
+  background-color: var(--ge);
+  background-image: linear-gradient(173deg, var(--gb), #016a64 0%, #117956 59%, var(--gc));
   text-align: center;
-  background-color: #003328;
-  border: 2px solid #00d900;
   border-radius: 24px;
   flex-direction: column;
   justify-content: flex-start;
@@ -160,10 +163,10 @@
 }
 
 .brix---heading-h2-size-4 {
-  color: #fff;
+  color: var(--yl);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 38px;
   font-weight: 700;
   line-height: 50px;
@@ -185,7 +188,7 @@
 .bold-text-35 {
   color: #fff;
   text-align: left;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
 }
 
 .brix---mg-bottom-12px {
@@ -254,25 +257,26 @@
   background-color: rgba(0, 0, 0, 0);
   margin-top: 0;
   margin-bottom: 0;
+  font-family: Extatica, sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
 }
 
 .uui-heading-xsmall {
-  color: #fff;
+  color: var(--gc);
   letter-spacing: 0;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
-  font-size: 1.2rem;
+  font-family: Extatica, sans-serif;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.4;
 }
 
 .text-block-2 {
-  font-family: Montserrat, sans-serif;
-  font-weight: 800;
+  font-family: Extatica, sans-serif;
+  font-weight: 700;
 }
 
 .brix---accordion-title {
@@ -319,7 +323,7 @@
 }
 
 .brix---text-300-bold {
-  color: #fff;
+  color: var(--yl);
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Montserrat, sans-serif;
@@ -341,7 +345,7 @@
   color: #fff;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 22px;
   font-weight: 800;
   line-height: 34px;
@@ -461,8 +465,8 @@
 
 .uui-button.is-button-large-copy {
   grid-column-gap: .75rem;
-  background-color: #00605a;
-  border-color: #00d900;
+  border-color: var(--gc);
+  background-color: var(--gb);
   border-radius: .9rem;
   padding: 1rem 7.05rem;
   font-size: 1.125rem;
@@ -612,18 +616,18 @@
 
 .bold-tasaext-43-copy {
   color: #fff;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
 }
 
 .brix---section-2 {
+  background-color: var(--gb);
   color: #fff;
-  background-color: #00605a;
   padding-top: 30px;
   padding-bottom: 20px;
 }
 
 .bold-text-52 {
-  color: #fff;
+  color: var(--yl);
   font-weight: 800;
 }
 
@@ -715,7 +719,7 @@
 .brix---mg-ssbottom-0-copy {
   color: #ffe;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-weight: 500;
 }
 
@@ -752,7 +756,7 @@
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 22px;
   font-weight: 600;
   line-height: 27px;
@@ -805,10 +809,10 @@
 }
 
 .bold-text-40 {
-  color: #fff;
-  font-family: Montserrat, sans-serif;
+  color: var(--yl);
+  font-family: Extatica, sans-serif;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 25px;
 }
 
@@ -855,17 +859,17 @@
 }
 
 .bold-text-51 {
-  color: #fff;
-  font-family: Montserrat, sans-serif;
+  color: var(--yl);
+  font-family: Extatica, sans-serif;
   font-weight: 800;
 }
 
 .brix---heading-h3-size-3-copssy {
-  color: #003328;
+  color: var(--c);
   text-align: center;
   margin-top: 0;
   margin-bottom: 12px;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 27px;
@@ -928,9 +932,9 @@
 }
 
 .bold-text-47 {
-  color: #003328;
-  font-family: Montserrat, sans-serif;
-  font-weight: 900;
+  color: var(--c);
+  font-family: Extatica, sans-serif;
+  font-weight: 700;
 }
 
 .brix---testimonial-v3-image-wrapper {
@@ -954,7 +958,7 @@
 }
 
 .section-9 {
-  background-color: #003328;
+  background-color: #000;
   padding-top: 35px;
 }
 
@@ -973,7 +977,7 @@
 .uui-text-size-medium-2 {
   color: #e1e3e1;
   letter-spacing: normal;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
@@ -985,8 +989,8 @@
 }
 
 .spark-secondary-backgrou1nd-card-copy {
-  background-color: #003328;
-  border: 2px solid #00d900;
+  border: 2px solid var(--gc);
+  background-color: var(--ge);
   border-radius: 12px;
   padding: 32px;
 }
@@ -1052,7 +1056,8 @@
 .brix---mg-bottom-0 {
   color: #ffe;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -1064,14 +1069,14 @@
 .bold-text-55 {
   color: #fff;
   text-align: center;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 35px;
   line-height: 20px;
 }
 
 .brix---card-testimonial-v3 {
-  background-color: #003328;
-  border: 2px solid #00d900;
+  border: 2px solid var(--gc);
+  background-color: var(--ge);
   border-radius: 24px;
   text-decoration: none;
   transition: transform .3s, color .3s;
@@ -1089,7 +1094,7 @@
 }
 
 .walsh-content-wrapper-white {
-  background-color: #003328;
+  background-color: var(--ge);
   border-radius: 20px;
   padding: 4.5em 0;
   position: relative;
@@ -1098,8 +1103,8 @@
 .bold-text-57 {
   color: #ffe;
   text-align: center;
-  font-family: Montserrat, sans-serif;
-  font-size: 28px;
+  font-family: Extatica, sans-serif;
+  font-size: 30px;
   font-weight: 700;
   line-height: 20px;
 }
@@ -1187,7 +1192,7 @@
 
 .walsh-footer-legal-text {
   color: #fff;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 13px;
 }
 
@@ -1263,8 +1268,11 @@
 }
 
 .brix---section {
+  background-color: var(--gb);
   color: #fff;
-  background-color: #e1e3e1;
+  background-image: url('../images/banner.webp');
+  background-position: 50%;
+  background-size: cover;
   padding-top: 60px;
   padding-bottom: 69px;
 }
@@ -1324,7 +1332,7 @@
 
 .bold-text-41 {
   color: #fff;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
 }
 
 .uui-faq01_heading {
@@ -1367,7 +1375,7 @@
 }
 
 .uui-section_layout19 {
-  background-color: #003328;
+  background-color: var(--ge);
 }
 
 .spsssark-seconssdary-background-card-copy-copy {
@@ -1390,14 +1398,14 @@
 }
 
 .bold-text-58 {
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
 }
 
 .uui-heading-medium-2 {
-  color: #fff;
+  color: var(--yl);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 2.2rem;
   font-weight: 800;
   line-height: 1;
@@ -1440,10 +1448,8 @@
 }
 
 .banner {
-  background-color: #003328;
-  background-image: url('../images/banner.webp');
-  background-position: 50%;
-  background-size: cover;
+  background-color: #000;
+  background-image: linear-gradient(188deg, black, var(--ge));
   padding-top: 8px;
   padding-bottom: 20px;
 }
@@ -1486,7 +1492,7 @@
 
 .bold-text-59 {
   border-radius: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1495,6 +1501,7 @@
   max-width: 1000px;
   justify-content: center;
   align-items: center;
+  margin-top: -75px;
   margin-bottom: 10px;
   display: flex;
 }
@@ -1507,8 +1514,8 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  font-family: Montserrat, sans-serif;
-  font-size: 22px;
+  font-family: Extatica, sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 23px;
 }
@@ -1524,9 +1531,9 @@
   background-color: rgba(0, 0, 0, 0);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
-  font-size: 40px;
-  font-weight: 900;
+  font-family: Extatica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
   line-height: 25px;
 }
 
@@ -1589,8 +1596,8 @@
 .accordion-icon_component-3 {
   width: 1.5rem;
   height: 1.5rem;
+  border: 2px solid var(--yl);
   color: #98a2b3;
-  border: 2px solid #fff;
   border-radius: 50%;
   justify-content: center;
   align-self: flex-start;
@@ -1605,7 +1612,8 @@
 }
 
 .bold-text-18 {
-  color: #fff;
+  color: var(--yl);
+  font-family: Extatica, sans-serif;
   font-weight: 700;
 }
 
@@ -1626,6 +1634,7 @@
 .uui-text-size-medium-3 {
   color: #fff9f0;
   letter-spacing: normal;
+  font-family: Extatica, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -1642,6 +1651,7 @@
   letter-spacing: normal;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: Extatica, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -1659,7 +1669,7 @@
 .accordion-icon_horizontal-line-2 {
   width: .75rem;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--yl);
   border-radius: 1px;
   position: absolute;
 }
@@ -1667,7 +1677,7 @@
 .accordion-icon_vertical-line-3 {
   width: 2px;
   height: .75rem;
-  background-color: #fff;
+  background-color: var(--yl);
   border-radius: 1px;
   position: absolute;
 }
@@ -1683,16 +1693,17 @@
 }
 
 .text-block-15 {
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
+  font-size: 1rem;
 }
 
 .uui-pricing08_price-2 {
   color: var(--ge);
   margin-top: .5rem;
   margin-bottom: .5rem;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
 }
 
@@ -1894,7 +1905,7 @@
 .uui-text-size-medium-5 {
   color: #242124;
   letter-spacing: normal;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.5;
@@ -1951,7 +1962,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 23px;
@@ -1966,7 +1977,7 @@
   color: #003328;
   text-align: center;
   letter-spacing: normal;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.2;
@@ -1977,12 +1988,12 @@
 }
 
 .f-paragraph-large-copy {
-  color: #0c2538;
+  color: var(--c);
   text-align: left;
   letter-spacing: -.02em;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
-  font-size: 20px;
+  font-family: Extatica, sans-serif;
+  font-size: 22px;
   font-weight: 500;
   line-height: 32px;
 }
@@ -2034,7 +2045,8 @@
 }
 
 .bold-text-61 {
-  color: var(--cz);
+  color: var(--c);
+  font-family: Extatica, sans-serif;
 }
 
 .f-h1-heading-2 {
@@ -2042,15 +2054,16 @@
   letter-spacing: -.04em;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: Extatica, sans-serif;
   font-size: 40px;
   line-height: 1.2;
 }
 
 .f-paragraph-large {
-  color: var(--cz);
+  color: var(--c);
   letter-spacing: -.02em;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 28px;
@@ -2063,27 +2076,28 @@
 .f-image-cover {
   width: 100%;
   height: 75%;
+  border: 2px solid var(--gc);
   object-fit: cover;
   border-radius: 15px;
 }
 
 .f-paragraph-large-2 {
-  color: var(--cz);
+  color: var(--c);
   letter-spacing: -.02em;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
-  font-size: 18px;
+  font-family: Extatica, sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 32px;
 }
 
 .f-h1-heading-copy {
-  color: var(--cz);
+  color: var(--c);
   text-align: center;
   letter-spacing: -.04em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 20px;
   line-height: 1;
 }
@@ -2138,11 +2152,11 @@
 }
 
 .f-h1-heading {
-  color: var(--cz);
+  color: var(--yl);
   letter-spacing: -.04em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 45px;
   line-height: 1;
 }
@@ -2161,9 +2175,9 @@
 }
 
 .bold-text-64 {
-  color: var(--ge);
+  color: var(--yl);
   text-align: left;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 40px;
   line-height: 1;
 }
@@ -2175,7 +2189,7 @@
 }
 
 .bold-text-65 {
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
 }
 
 .bold-text-66, .bold-text-67, .bold-text-68, .bold-text-69, .bold-text-70, .bold-text-71, .bold-text-72, .bold-text-73, .bold-text-74, .bold-text-75 {
@@ -2183,8 +2197,8 @@
 }
 
 .bold-text-76 {
-  color: var(--ge);
-  font-family: Montserrat, sans-serif;
+  color: var(--yl);
+  font-family: Extatica, sans-serif;
 }
 
 .div-block-70 {
@@ -2210,7 +2224,7 @@
 }
 
 .section-11 {
-  background-color: var(--c);
+  background-color: #000;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -2218,7 +2232,7 @@
 .uui-text-size-large {
   color: #fff;
   letter-spacing: normal;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
@@ -2235,9 +2249,9 @@
   margin-bottom: 1rem;
   margin-left: 0;
   padding: 28px 176px;
-  font-family: Montserrat, sans-serif;
-  font-size: 20px;
-  font-weight: 800;
+  font-family: Extatica, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
   line-height: 100%;
   display: inline-block;
 }
@@ -2252,7 +2266,7 @@
   letter-spacing: normal;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
+  font-family: Extatica, sans-serif;
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.5;
@@ -2299,6 +2313,7 @@
 .uui-heroheader20_lightbox-image {
   width: 95%;
   height: 100%;
+  border: 2px solid var(--gc);
   object-fit: cover;
   border-radius: 14px;
 }
@@ -2341,18 +2356,18 @@
 }
 
 .section-12 {
-  background-color: var(--c);
+  background-color: var(--ge);
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .image-22 {
-  border: 1px solid #000;
+  border: 2px solid var(--gc);
   border-radius: 10px;
 }
 
 .f-h1-heading-copy-copssssy {
-  color: var(--ge);
+  color: var(--yl);
   text-align: center;
   letter-spacing: -.04em;
   margin-top: 0;
@@ -2370,13 +2385,46 @@
 }
 
 .section-13 {
+  background-color: var(--ge);
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .image-23, .image-24 {
-  border: 1px solid #000;
+  border: 2px solid var(--gc);
   border-radius: 10px;
+}
+
+.preview-includssse-tittle-72-copy-copy {
+  color: var(--c);
+  text-align: center;
+  letter-spacing: -.96px;
+  -webkit-text-stroke-color: #f60;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Extatica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.bold-text-47-copy {
+  color: var(--yl);
+  font-family: Extatica, sans-serif;
+  font-weight: 900;
+}
+
+.bold-text-78 {
+  color: var(--yl);
+}
+
+.section-14 {
+  background-color: #000;
+}
+
+.bold-text-79, .bold-text-80, .bold-text-81, .bold-text-82, .bold-text-83, .bold-text-84, .bold-text-85, .bold-text-86 {
+  color: var(--yl);
 }
 
 @media screen and (min-width: 1440px) {
@@ -2711,6 +2759,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .preview-includssse-tittle-72-copy-copy {
+    font-size: 36px;
+    line-height: 40px;
   }
 }
 
@@ -3212,6 +3265,10 @@
     margin-top: 0;
     font-size: 48px;
   }
+
+  .preview-includssse-tittle-72-copy-copy {
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3519,7 +3576,7 @@
   }
 
   .bold-text-57 {
-    font-size: 20px;
+    font-size: 26px;
     line-height: 20px;
   }
 
@@ -3715,6 +3772,7 @@
   }
 
   .f-h1-heading-copy {
+    font-size: 30px;
     line-height: 1;
   }
 
@@ -3762,12 +3820,21 @@
     top: 42%;
   }
 
+  .columns-4 {
+    flex-direction: column;
+  }
+
   .f-h1-heading-copy-copssssy {
     line-height: 1;
   }
 
   .bossssssld-text-65-copsssy-copy {
     font-size: 40px;
+  }
+
+  .preview-includssse-tittle-72-copy-copy {
+    font-size: 28px;
+    line-height: 32px;
   }
 }
 
@@ -3798,6 +3865,10 @@
 
 #w-node-_21ed4798-357d-07ec-ecad-6187cf1bb910-9268fe8b {
   grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
+#w-node-ba53cb98-b708-3662-7d73-0062fadf7469-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf746e-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf7473-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf7478-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf747d-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf7495-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf749a-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf749f-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf74a4-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf74a9-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf74be-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf74c3-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf74c8-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf74cd-9268fe8b, #w-node-ba53cb98-b708-3662-7d73-0062fadf74d2-9268fe8b {
+  align-self: start;
 }
 
 #w-node-_21ed4798-357d-07ec-ecad-6187cf1bba4a-9268fe8b {
@@ -3834,3 +3905,59 @@
 }
 
 
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-ExtraBoldItalic.otf') format('opentype'), url('../fonts/Extatica-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Extatica';
+  src: url('../fonts/Extatica-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
