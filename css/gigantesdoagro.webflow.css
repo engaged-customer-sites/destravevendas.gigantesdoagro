@@ -2435,6 +2435,12 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .brix---section-4 {
+    background-image: url('../images/banner.webp');
+    background-position: 0 0;
+    background-size: cover;
+  }
+
   .section-10 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -3308,6 +3314,9 @@
   }
 
   .brix---section-4 {
+    background-image: url('../images/banner.webp');
+    background-position: 0 0;
+    background-size: auto;
     padding-top: 15px;
     padding-bottom: 15px;
   }
