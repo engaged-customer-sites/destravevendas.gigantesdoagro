@@ -464,12 +464,19 @@
 }
 
 .uui-button.is-button-large-copy {
+  float: none;
+  clear: none;
   grid-column-gap: .75rem;
+  aspect-ratio: auto;
   border-color: var(--gc);
   background-color: var(--gb);
+  object-fit: fill;
   border-radius: .9rem;
   padding: 1rem 7.05rem;
   font-size: 1.125rem;
+  display: inline-block;
+  position: static;
+  overflow: visible;
 }
 
 .uui-faq01_accordion {
@@ -2425,6 +2432,17 @@
 
 .bold-text-79, .bold-text-80, .bold-text-81, .bold-text-82, .bold-text-83, .bold-text-84, .bold-text-85, .bold-text-86 {
   color: var(--yl);
+}
+
+.container-5 {
+  display: block;
+  position: static;
+}
+
+.div-block-71 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
